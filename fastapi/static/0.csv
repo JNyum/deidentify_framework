@@ -1,0 +1,289 @@
+환자번호,수진일자,서식 작성일자,서식 작성 진료과,서식명,서식 항목명,항목별 서식 값,tag
+148495483799164-Agi5IPmIqkOclpwsltJhbw==,2024-08-29,2024-08-29,순환기내과,병원공통_타과의뢰_기본서식,수신의1 <- 병원공통_타과의뢰_기본서식,김세중,[NAME]김세중
+148495483799164-Agi5IPmIqkOclpwsltJhbw==,2024-08-29,2024-08-29,순환기내과,병원공통_타과의뢰_기본서식,수신의1 <- 병원공통_타과의뢰_기본서식,오종진,[NAME]오종진
+148495483799164-Agi5IPmIqkOclpwsltJhbw==,2024-08-29,2024-08-29,순환기내과,병원공통_타과의뢰_기본서식,수신진료과1 <- 병원공통_타과의뢰_기본서식,비뇨의학과,[NAME]비뇨의학과
+148495483799164-Agi5IPmIqkOclpwsltJhbw==,2024-08-29,2024-08-29,순환기내과,병원공통_타과의뢰_기본서식,수신진료과1 <- 병원공통_타과의뢰_기본서식,신장내과,[ADDRESS]신장내과
+148495483799164-Agi5IPmIqkOclpwsltJhbw==,2024-08-29,2024-08-29,순환기내과,병원공통_타과의뢰_기본서식,응급여부 <- 병원공통_타과의뢰_기본서식,N,[ADDRESS]N
+148495483799164-Agi5IPmIqkOclpwsltJhbw==,2024-08-29,2024-08-29,순환기내과,병원공통_타과의뢰_기본서식,의뢰내용,"OOO님께 FU하던 distal urestor stone 환자로 (심장초음파 검사실 직원입니다.) APN, gram negative bacteremia로 입원하여 항생제 치료 중에 있습니다. distal stone에 대해서 귀과적 plan에 대해 여쭙습니다. 감사합니다.  
+","[NAME]OOO님께 FU하던 distal urestor stone 환자로 (심장초음파 검사실 직원입니다.) APN, gram negative bacteremia로 입원하여 항생제 치료 중에 있습니다.
+distal stone에 대해서 귀과적 plan에 대해 여쭙습니다.
+[NAME]감사합니다."
+148495483799164-Agi5IPmIqkOclpwsltJhbw==,2024-08-29,2024-08-29,순환기내과,병원공통_타과의뢰_기본서식,의뢰내용,"Uretor stone, APN, gram (-) bacteremiaOOO선생님께 입원대기 중이었던 환자입니다. 92병동으로 입원하게 된지라 협진 위해 의뢰드립니다. 
+
+감사합니다. 
+","Uretor stone, APN, gram (-) bacteremiaOOO선생님께 입원대기 중이었던 환자입니다.
+[ADDRESS]92병동으로 입원하게 된지라 [NAME]협진 위해 의뢰드립니다.
+[NAME]감사합니다."
+148495483799164-Agi5IPmIqkOclpwsltJhbw==,2024-08-29,2024-08-29,순환기내과,병원공통_타과의뢰_기본서식,의뢰의 <- 병원공통_타과의뢰_기본서식,윤연이,[NAME]윤연이
+148495483799164-Agi5IPmIqkOclpwsltJhbw==,2024-08-29,2024-08-29,순환기내과,병원공통_타과의뢰_기본서식,의뢰진료과 <- 병원공통_타과의뢰_기본서식,순환기내과,순환기내과
+148495483799164-Agi5IPmIqkOclpwsltJhbw==,2024-08-29,2024-08-29,순환기내과,병원공통_타과의뢰_기본서식,진단,"Bacteremia / VIMC / 2024-08-29 
+
+",Bacteremia / VIMC / [DATE]2024-08-29
+148495483799164-Agi5IPmIqkOclpwsltJhbw==,2024-08-29,2024-08-29,순환기내과,병원공통_타과의뢰_기본서식,환자현위치 <- 병원공통_타과의뢰_기본서식,병동:092 병실:14,병동:[ADDRESS]092 [ADDRESS]병실:[ADDRESS]14
+148495483799164-Agi5IPmIqkOclpwsltJhbw==,2024-08-29,2024-08-30,순환기내과,병원공통_타과의뢰_기본서식,수신의1 <- 병원공통_타과의뢰_기본서식,문송미,[ADDRESS]문송미
+148495483799164-Agi5IPmIqkOclpwsltJhbw==,2024-08-29,2024-08-30,순환기내과,병원공통_타과의뢰_기본서식,수신진료과1 <- 병원공통_타과의뢰_기본서식,감염내과,감염내과
+148495483799164-Agi5IPmIqkOclpwsltJhbw==,2024-08-29,2024-08-30,순환기내과,병원공통_타과의뢰_기본서식,응급여부 <- 병원공통_타과의뢰_기본서식,N,[ADDRESS]N
+148495483799164-Agi5IPmIqkOclpwsltJhbw==,2024-08-29,2024-08-30,순환기내과,병원공통_타과의뢰_기본서식,의뢰내용,"혈액배양검사 결과가 다음과 같이 나왔습니다.
+적절한 항생제 투여에 대해 의뢰드립니다.
+[오더발행] 24년08월27일
+[최종보고] 24년08월30일 동정결과: Escherichia coli
+항생제 감수성결과: 
+Amoxicillin/Clavulanic acid        <=2       S,
+Amikacin                           2         S,
+Ceftazidime                        <=0.12    S,
+Ciprofloxacin                      <=0.06    S,
+Cefotaxime                         <=0.25    S,
+Gentamicin                         <=1       S,
+Imipenem                           <=0.25    S,
+Trimeth/Sulfa                      <=20      S,
+Piperacillin/Tazobactam            <=4       S,
+Nitrofurantoin                     <=16      S,
+Cefepime                           <=0.12    S,
+Meropenem                          <=0.25    S,
+
+COMMENT: 상기 항생제 감수성은 MIC(Minimum Inhibitory Concentration)
+분석을 통한 결과입니다.
+[진단검사의학과 ]
+
+[중간 보고]
+2024년 08월 29일 12:27 Escherichia coli
+
+* 중간동정결과와 최종동정결과 다른 경우, 감염내과 협진이 필요합니다
+** 항균제감수성검사 대상 균종인 경우 결과는 최종보고에서 확인할 수 있습니다.
+
+[염색결과]2024년08월28일 09:10
+G(-) rod","혈액배양검사 결과가 다음과 같이 나왔습니다.
+적절한 항생제 투여에 대해 의뢰드립니다.
+[오더발행] [DATE]24년08월27일
+[최종보고] [DATE]24년08월30일 동정결과: Escherichia coli
+항생제 감수성결과: 
+Amoxicillin/Clavulanic acid        <=2       S,
+Amikacin                           2         S,
+Ceftazidime                        <=0.12    S,
+Ciprofloxacin                      <=0.06    S,
+[ADDRESS]Cefotaxime                         <=0.25    S,
+Gentamicin                         <=1       S,
+[NAME]Imipenem                           <=0.25    S,
+Trimeth/Sulfa                      <=20      S,
+Piperacillin/Tazobactam            <=4       S,
+Nitrofurantoin                     <=16      S,
+Cefepime                           <=0.12    S,
+[NAME]Meropenem                          <=0.25    S,
+COMMENT: 상기 항생제 감수성은 MIC(Minimum Inhibitory Concentration)
+분석을 통한 결과입니다.
+[[NAME]진단검사의학과 ]
+[중간 보고]
+[DATE]2024년 08월 29일 12:27 Escherichia coli
+* 중간동정결과와 최종동정결과 다른 경우, 감염내과 협진이 필요합니다
+** 항균제감수성검사 대상 균종인 경우 결과는 최종보고에서 확인할 수 있습니다.
+[염색결과][DATE]2024년08월28일 09:10
+G(-) [NAME]rod"
+148495483799164-Agi5IPmIqkOclpwsltJhbw==,2024-08-29,2024-08-30,순환기내과,병원공통_타과의뢰_기본서식,의뢰의 <- 병원공통_타과의뢰_기본서식,윤연이,[NAME]윤연이
+148495483799164-Agi5IPmIqkOclpwsltJhbw==,2024-08-29,2024-08-30,순환기내과,병원공통_타과의뢰_기본서식,의뢰진료과 <- 병원공통_타과의뢰_기본서식,순환기내과,순환기내과
+148495483799164-Agi5IPmIqkOclpwsltJhbw==,2024-08-29,2024-08-30,순환기내과,병원공통_타과의뢰_기본서식,환자현위치 <- 병원공통_타과의뢰_기본서식,병동:131 병실:08,병동:[ADDRESS]131 [ADDRESS]병실:[ADDRESS]08
+148495483799164-Agi5IPmIqkOclpwsltJhbw==,2024-08-29,2024-09-02,신장내과,병원공통_(퇴원)_기본서식,1번째 퇴원진단명(부) <- 병원공통_(퇴원)_기본서식,Acute kidney injury,Acute kidney injury
+148495483799164-Agi5IPmIqkOclpwsltJhbw==,2024-08-29,2024-09-02,신장내과,병원공통_(퇴원)_기본서식,1번째 퇴원진단명(주) <- 병원공통_(퇴원)_기본서식,Sepsis due to Gram-negative organisms,Sepsis due to Gram-negative organisms
+148495483799164-Agi5IPmIqkOclpwsltJhbw==,2024-08-29,2024-09-02,신장내과,병원공통_(퇴원)_기본서식,Patient Summary,"상환  ureter stone 및 APN 소견으로 ABx 사용 및 supportive care하며 stone 자연배출 확인함. LFT abnormality에 대해 IMG 협진 진행하였으며 급성 합병증 없이 퇴원함.
+","상환  ureter stone 및 APN 소견으로 ABx 사용 및 supportive care하며 stone 자연배출 확인함.
+LFT abnormality에 대해 IMG 협진 진행하였으며 급성 합병증 없이 퇴원함."
+148495483799164-Agi5IPmIqkOclpwsltJhbw==,2024-08-29,2024-09-02,신장내과,병원공통_(퇴원)_기본서식,검사결과,"@ Cx
+B/Cx (24.08.27) : Escherichia coli
+U/Cx (24.08.27): Escherichia coli
+B/Cx (24.08.29): No growth after 2 days (중간보고)
+
+@ AP CT (24.08.27)
+Persistent 4 mm right far distal ureter stone with mild hydronephrosis and APN.
+Otherwise, no specific fever focus is identified.
+","[ADDRESS]@ Cx
+[ADDRESS]B/Cx ([DATE]24.08.27) : Escherichia coli
+[ADDRESS]U/Cx ([DATE]24.08.27): Escherichia coli
+[ADDRESS]B/Cx ([DATE]24.08.29): No growth after 2 days (중간보고)
+@ [ADDRESS]AP CT ([DATE]24.08.27)
+Persistent 4 mm right far distal ureter stone with mild hydronephrosis and APN.
+Otherwise, no specific fever focus is identified."
+148495483799164-Agi5IPmIqkOclpwsltJhbw==,2024-08-29,2024-09-02,신장내과,병원공통_(퇴원)_기본서식,입원결과,"상환  ureter stone 및 APN 소견으로 ABx 사용 및 supportive care하며 stone 자연배출 확인함. LFT abnormality에 대해 IMG 협진 진행하였으며 급성 합병증 없이 퇴원함.
+","상환  ureter stone 및 APN 소견으로 ABx 사용 및 supportive care하며 stone 자연배출 확인함.
+LFT abnormality에 대해 IMG 협진 진행하였으며 급성 합병증 없이 퇴원함."
+148495483799164-Agi5IPmIqkOclpwsltJhbw==,2024-08-29,2024-09-02,신장내과,병원공통_(퇴원)_기본서식,입원경과,"8/27 ER visit
+       CFTRX start~
+8/31 CFTRX 8/27~8/31
+       ciprofloxacin start~ d/t LFT elevation
+9/3 discharge
+","[DATE]8/27 [ADDRESS]ER visit
+       [ADDRESS]CFTRX start~
+[DATE]8/31 [ADDRESS]CFTRX [DATE]8/27~[DATE]8/31
+       ciprofloxacin start~ d/t [NAME]LFT elevation
+[DATE]9/3 discharge"
+148495483799164-Agi5IPmIqkOclpwsltJhbw==,2024-08-29,2024-09-02,신장내과,병원공통_(퇴원)_기본서식,입원사유 및 병력요약,"# Torsion of ovary, ovarian pedicle, and fallopian tube 
+# Ovarian Cyst
+#. h/o Ureter stone 
+# 본원 직원
+
+@ APCT
+Conclusion]
+Persistent 4 mm right far distal ureter stone with mild hydronephrosis and APN.
+Otherwise, no specific fever focus is identified.
+
+상환 본원 직원분으로 2일전 ureter stone 소견 듣고 귀가한 후부터 오한 및 통증 있어 응급실 내원함. w/u 상 APN, Rt 소견 보이고, lab 상 염증수치가 매우 높고 thrombocytopenia 까지 동반되어 sepsis 진행한 양상으로 입원함
+","# Torsion of ovary, ovarian pedicle, and fallopian tube 
+# Ovarian Cyst
+#.
+h/o Ureter stone 
+# [NAME]본원 직원
+[ADDRESS]@ APCT
+Conclusion]
+Persistent 4 mm right far distal ureter stone with mild hydronephrosis and APN.
+Otherwise, no specific fever focus is identified.
+상환 [NAME]본원 직원분으로 [DATE]2일전 ureter stone 소견 듣고 귀가한 후부터 오한 및 통증 있어 응급실 내원함.
+w/u 상 [ADDRESS]APN, Rt 소견 보이고, lab 상 염증수치가 매우 높고 thrombocytopenia 까지 동반되어 sepsis 진행한 양상으로 입원함"
+148495483799164-Agi5IPmIqkOclpwsltJhbw==,2024-08-29,2024-09-02,신장내과,병원공통_(퇴원)_기본서식,퇴원결과 <- 병원공통_(퇴원)_기본서식,호전,호전
+148495483799164-Agi5IPmIqkOclpwsltJhbw==,2024-08-29,2024-09-02,신장내과,병원공통_(퇴원)_기본서식,퇴원장소 <- 병원공통_(퇴원)_기본서식,집,[ADDRESS]집
+148495483799164-Agi5IPmIqkOclpwsltJhbw==,2024-08-29,2024-09-02,신장내과,병원공통_(퇴원)_기본서식,향후계획,"OPD f/u
+",[ADDRESS]OPD f/u
+148495483799164-Agi5IPmIqkOclpwsltJhbw==,2024-08-29,2024-09-02,신장내과,병원공통_타과의뢰_기본서식,수신의1 <- 병원공통_타과의뢰_기본서식,박민경,[NAME]박민경
+148495483799164-Agi5IPmIqkOclpwsltJhbw==,2024-08-29,2024-09-02,신장내과,병원공통_타과의뢰_기본서식,수신진료과1 <- 병원공통_타과의뢰_기본서식,소화기내과,소화기내과
+148495483799164-Agi5IPmIqkOclpwsltJhbw==,2024-08-29,2024-09-02,신장내과,병원공통_타과의뢰_기본서식,응급여부 <- 병원공통_타과의뢰_기본서식,N,[ADDRESS]N
+148495483799164-Agi5IPmIqkOclpwsltJhbw==,2024-08-29,2024-09-02,신장내과,병원공통_타과의뢰_기본서식,의뢰내용,"OOO교수님.
+
+상환 본원 직원분으로 응급실 내원 2일전 loacl에서 ureter stone 소견 듣고 귀가한 후 부터 오한 및 통증 있어 응급실 내원하였습니다. w/u 상 UIretor stone, Rt, APN 소견으로 입원하여 ABx 사용하며 supportive care 후 익일 퇴원 예정인 환자입니다.
+최근 단기간 내 OOO병원에서 NSAIDs 처방하여 복용한 이력있으며 입원 중 시행한 검사상 LFT 상승하는 추세로 이와 관련된 귀과적 진료 의뢰드리고자 협진드리오니 바쁘신 중 고진선처 부탁드립니다. 감사합니다.
+
+전담간호사 : OOO/prof. OOO배상
+","[NAME]OOO교수님.
+상환 [NAME]본원 직원분으로 응급실 내원 [DATE]2일전 [ADDRESS]loacl에서 ureter stone 소견 듣고 귀가한 후 부터 오한 및 통증 있어 응급실 내원하였습니다.
+w/u 상 UIretor stone, Rt, APN 소견으로 입원하여 ABx 사용하며 supportive care 후 [DATE]익일 퇴원 예정인 [NAME]환자입니다.
+최근 단기간 내 OOO병원에서 NSAIDs 처방하여 복용한 이력있으며 입원 중 시행한 검사상 LFT 상승하는 추세로 이와 관련된 귀과적 진료 의뢰드리고자 협진드리오니 [NAME]바쁘신 중 [ADDRESS]고진선처 부탁드립니다.
+[NAME]감사합니다.
+[NAME]전담간호사 : [NAME]OOO/prof.
+[ADDRESS]OOO배상"
+148495483799164-Agi5IPmIqkOclpwsltJhbw==,2024-08-29,2024-09-02,신장내과,병원공통_타과의뢰_기본서식,의뢰의 <- 병원공통_타과의뢰_기본서식,김세중,[NAME]김세중
+148495483799164-Agi5IPmIqkOclpwsltJhbw==,2024-08-29,2024-09-02,신장내과,병원공통_타과의뢰_기본서식,의뢰진료과 <- 병원공통_타과의뢰_기본서식,신장내과,[ADDRESS]신장내과
+148495483799164-Agi5IPmIqkOclpwsltJhbw==,2024-08-29,2024-09-02,신장내과,병원공통_타과의뢰_기본서식,진단,"# UIretor stone, Rt
+# APN
+# Gra, negative bacteremia 
+
+@ lab
+(24.08.30)
+T. Protein	6.1
+Albumin	3.4
+T. Bil.	0.62
+Alk. phos.	122
+AST(GOT)	72
+ALT(GPT)	102
+γ-GT	180
+
+(24.09.02)
+T. Bil.	0.38
+Alk. phos.	115
+AST(GOT)	85
+ALT(GPT)	111
+Na	140
+K	3.9
+Cl	108
+TCO2	22
+CRP	1.38
+
+ 
+ 
+
+","# [ADDRESS]UIretor stone, [ADDRESS]Rt
+# APN
+# [NAME]Gra, negative bacteremia 
+@ [ADDRESS]lab
+([DATE]24.08.30)
+T.
+Protein	6.1
+Albumin	3.4
+T.
+[NAME]Bil.
+0.62
+Alk.
+phos.
+[ADDRESS]122
+AST(GOT)	72
+ALT(GPT)	102
+γ-GT	180
+([DATE]24.09.02)
+T.
+[NAME]Bil.
+0.38
+Alk.
+phos.
+[ADDRESS]115
+AST(GOT)	85
+ALT(GPT)	111
+Na	140
+[ADDRESS]K	3.9
+[ADDRESS]Cl	108
+[ADDRESS]TCO2	22
+[ADDRESS]CRP	1.38"
+148495483799164-Agi5IPmIqkOclpwsltJhbw==,2024-08-29,2024-09-02,신장내과,병원공통_타과의뢰_기본서식,환자현위치 <- 병원공통_타과의뢰_기본서식,병동:131 병실:08,병동:[ADDRESS]131 [ADDRESS]병실:[ADDRESS]08
+148495483799164-Agi5IPmIqkOclpwsltJhbw==,2024-08-29,2024-08-29,순환기내과,병원공통_(입원초진)_신규기본-default (snomed),others <- Past history <- PHx-과거병력,"# Torsion of ovary, ovarian pedicle, and fallopian tube 
+# Ovarian Cyst
+#. h/o Ureter stone 
+","# Torsion of ovary, ovarian pedicle, and fallopian tube 
+# Ovarian Cyst
+#.
+h/o Ureter stone"
+148495483799164-Agi5IPmIqkOclpwsltJhbw==,2024-08-29,2024-08-29,순환기내과,병원공통_(입원초진)_신규기본-default (snomed),치료목표 <-  <- Care Plan,"w/u, antibiotics 투약","w/u, antibiotics 투약"
+148495483799164-Agi5IPmIqkOclpwsltJhbw==,2024-08-29,2024-08-29,순환기내과,병원공통_(입원초진)_신규기본-default (snomed),목표일 <-  <- Care Plan,2024-09-01,[DATE]2024-09-01
+148495483799164-Agi5IPmIqkOclpwsltJhbw==,2024-08-29,2024-08-29,순환기내과,병원공통_(입원초진)_신규기본-default (snomed),others <- Past history <- PHx-과거병력,1,1
+148495483799164-Agi5IPmIqkOclpwsltJhbw==,2024-08-29,2024-08-29,순환기내과,병원공통_(입원초진)_신규기본-default (snomed),Present illness,"# Torsion of ovary, ovarian pedicle, and fallopian tube 
+# Ovarian Cyst
+#. h/o Ureter stone 
+# 본원 직원
+
+@ APCT
+Conclusion]
+Persistent 4 mm right far distal ureter stone with mild hydronephrosis and APN.
+Otherwise, no specific fever focus is identified.
+
+
+상환 본원 직원분으로 2일전 ureter stone 소견 듣고 귀가한 후부터 오한 및 통증 있어 응급실 내원함. w/u 상 APN, Rt 소견 보이고, lab 상 염증수치가 매우 높고 thrombocytopenia 까지 동반되어 sepsis 진행한 양상으로 입원함
+","# Torsion of ovary, ovarian pedicle, and fallopian tube 
+# Ovarian Cyst
+#.
+h/o Ureter stone 
+# [NAME]본원 직원
+[ADDRESS]@ APCT
+Conclusion]
+Persistent 4 mm right far distal ureter stone with mild hydronephrosis and APN.
+Otherwise, no specific fever focus is identified.
+상환 [NAME]본원 직원분으로 [DATE]2일전 ureter stone 소견 듣고 귀가한 후부터 오한 및 통증 있어 응급실 내원함.
+w/u 상 [ADDRESS]APN, Rt 소견 보이고, lab 상 염증수치가 매우 높고 thrombocytopenia 까지 동반되어 sepsis 진행한 양상으로 입원함"
+148495483799164-Agi5IPmIqkOclpwsltJhbw==,2024-08-29,2024-08-29,순환기내과,병원공통_(입원초진)_신규기본-default (snomed),PE,N/S (Non-specific),N/S (Non-specific)
+148495483799164-Agi5IPmIqkOclpwsltJhbw==,2024-08-29,2024-08-29,순환기내과,병원공통_(입원초진)_신규기본-default (snomed),Operation <- PHx-과거병력,"2022-06-27 Ovarian cystectomy ( left/ single port total laparoscopy )
+
+",[DATE]2022-06-27 Ovarian cystectomy ( left/ single port total laparoscopy )
+148495483799164-Agi5IPmIqkOclpwsltJhbw==,2024-08-29,2024-08-29,순환기내과,병원공통_(입원초진)_신규기본-default (snomed),FHx and SHx (Smoking) <- PHx-가족력,"가족력
+당뇨  (+)  부
+기타  (+)
+형제   녹내장 
+
+흡연력
+흡연여부  아니오
+
+","[NAME]가족력
+당뇨  (+)  [NAME]부
+기타  (+)
+형제   녹내장 
+흡연력
+흡연여부  아니오"
+148495483799164-Agi5IPmIqkOclpwsltJhbw==,2024-08-29,2024-08-29,순환기내과,병원공통_(입원초진)_신규기본-default (snomed),Current Problem <-  <- Care Plan,"APN, Rt, distal ureter stone","APN, Rt, distal ureter stone"
+148495483799164-Agi5IPmIqkOclpwsltJhbw==,2024-08-29,2024-08-29,순환기내과,병원공통_(입원초진)_신규기본-default (snomed),Care Plan,"w/u, antibiotics 투약
+","w/u, antibiotics 투약"
+148495483799164-Agi5IPmIqkOclpwsltJhbw==,2024-08-29,2024-08-29,순환기내과,병원공통_(입원초진)_신규기본-default (snomed),Assessment,"# APN, Rt
+# distal ureter stone
+","# [ADDRESS]APN, [ADDRESS]Rt
+# distal ureter stone"
+148495483799164-Agi5IPmIqkOclpwsltJhbw==,2024-08-29,2024-08-29,비뇨의학과,병원공통_타과회신_기본서식,회신내용,"KUB시행하여 주세요
+
+left side 결석은 크기가 작아서 이번에도 자연배출이 가능해보입니다. 
+
+harnal 1t qd처방부탁드립니다. 
+
+KUB fu하시면 수일내로 배출가능해보입니다. 
+","[ADDRESS]KUB시행하여 주세요
+left side 결석은 크기가 작아서 이번에도 자연배출이 가능해보입니다.
+[NAME]harnal 1t qd처방부탁드립니다.
+[NAME]KUB fu하시면 [DATE]수일내로 배출가능해보입니다."
