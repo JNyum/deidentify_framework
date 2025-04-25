@@ -1,13 +1,15 @@
-import React from "react";
-import SlateDataEditor from "./DateMarker"; // 경로 확인
+import DateMarker from './DateMarker';
 
 function App() {
   return (
     <div>
-      <h1>2025 데이터톤</h1>
-      <SlateDataEditor />
+      <DateMarker />
     </div>
   );
 }
 
 export default App;
+
+// export default function DateMarker() {
+//   return <h1>Hello from DateMarker</h1>;
+// }

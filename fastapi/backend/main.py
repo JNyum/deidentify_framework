@@ -1,14 +1,12 @@
 from fastapi import FastAPI, UploadFile, File
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
-from typing import List
 from fastapi.responses import JSONResponse
 from gliner import GLiNER
 import re
 from datetime import datetime, timedelta
 import os
 import json
-import pandas as pd
 
 app = FastAPI()
 
@@ -26,10 +24,9 @@ class SaveRequest(BaseModel):
     text: str
     filename: str
 
-class NoiseRequestV2(BaseModel):
-    rows: List[dict]
-    columns: List[str]
-    level: int
+class NoiseRequest(BaseModel):
+    text: str
+    level: int = 1
 
 class DateTarget:
     def __init__(self, date_str: str):
@@ -43,10 +40,9 @@ class DateTarget:
     def _parse(self):
         patterns = {
             "type1": r"\[DATE\](\d{4})[-/.](\d{1,2})[-/.](\d{1,2})",
-            "type2": r"\[DATE\](\d{2})[-/.](\d{1,2})[-/.](\d{1,2})",
-            "type3": r"\[DATE\](\d{1,2})[-/.](\d{1,2})",
-            "type4": r"\[DATE\](\d{2})년(\d{1,2})월(\d{1,2})일",
-            "type5": r"\[DATE\](\d{4})년(\d{1,2})월(\d{1,2})일",
+            "type2": r"\[DATE\](\d{1,2})[-/.](\d{1,2})",
+            "type3": r"\[DATE\](\d{2})년(\d{1,2})월(\d{1,2})일",
+            "type4": r"\[DATE\](\d{4})년(\d{1,2})월(\d{1,2})일",
         }
         for t, pattern in patterns.items():
             match = re.search(pattern, self.raw)
@@ -56,18 +52,18 @@ class DateTarget:
                     self.type = "type1"
                     self.year, self.month, self.day = parts
                     return
-                elif t == "type3":
-                    self.type = "type3"
+                if t == "type2":
+                    self.type = "type2"
                     self.month, self.day = parts
                     self.year = 2000
                     return
-                elif t == "type4" or t == "type2":
-                    self.type = "type4"
+                if t == "type3":
+                    self.type = "type3"
                     self.year, self.month, self.day = parts
                     self.year += 2000
                     return
-                elif t == "type5":
-                    self.type = "type5"
+                if t == "type4":
+                    self.type = "type4"
                     self.year, self.month, self.day = parts
                     return
         raise ValueError(f"Unsupported date format: {self.raw}")
@@ -83,21 +79,10 @@ class DateTarget:
             pass
 
     def to_string(self):
-        if self.type in ("type1", "type4", "type5"):
+        if self.type in ("type1", "type3", "type4"):
             return f"[DATE]{self.year:04}-{self.month:02}-{self.day:02}"
         else:
             return f"[DATE]{self.month:02}-{self.day:02}"
-
-def apply_noise_to_text(text: str, offset: int) -> str:
-    matches = re.findall(r"\[DATE\][\d년월일\-./]+", text)
-    for m in matches:
-        try:
-            dt = DateTarget(m)
-            dt.apply_offset(offset)
-            text = text.replace(m, dt.to_string())
-        except:
-            continue
-    return text
 
 # @app.get("/load-file")
 # async def load_file(index: int, type: str):
@@ -116,39 +101,47 @@ def apply_noise_to_text(text: str, offset: int) -> str:
 
 
 @app.get("/load-file")
-async def load_file(index: int, type: str = "raw"):
-    path = f"../static/{index}.csv"  # 파일 경로
+async def load_file(index: int, type: str):
+    if type not in {"raw", "taged"}:
+        return JSONResponse(status_code=400, content={"error": "Invalid type"})
+
+    base_dir = f"../static/{type}_text"
+    filename = f"{index}_{type}.txt"
+    path = os.path.join(base_dir, filename)
     noise_map_path = "../static/noise_map.json"
 
     try:
-        content = pd.read_csv(path)
+        with open(path, "r", encoding="utf-8") as f:
+            content = f.read()
+
+        # noise map 읽기
         noise = 0
         if os.path.exists(noise_map_path):
             with open(noise_map_path, "r", encoding="utf-8") as nf:
                 noise_dict = json.load(nf)
                 noise = noise_dict.get(str(index), 0)
 
-        return {
-            "columns": content.columns.tolist(),
-            "rows": content.fillna("").to_dict(orient="records"),
-            "noise": noise
-        }
+        return {"content": content, "noise": noise}
 
     except FileNotFoundError:
         return JSONResponse(status_code=404, content={"error": "File not found"})
 
-@app.post("/add-noise-df")
-async def add_noise_df(req: NoiseRequestV2):
-    df = pd.DataFrame(req.rows)
-
-    for col in req.columns:
-        if col in df.columns:
-            # ✅ 무조건 noised 컬럼으로 만듦
-            df["noised"] = df[col].astype(str).apply(lambda x: apply_noise_to_text(x, req.level))
-
-    return {"rows": df.to_dict(orient="records")}
-
-
+@app.post("/add-noise")
+async def add_noise(req: NoiseRequest):
+    lines = req.text.split("\n")
+    processed = []
+    for line in lines:
+        new_line = line
+        matches = re.findall(r"\[DATE\][\d년월일\-./]+", line)
+        for m in matches:
+            try:
+                dt = DateTarget(m)
+                dt.apply_offset(req.level)
+                new_line = new_line.replace(m, dt.to_string())
+            except Exception:
+                continue
+        processed.append(new_line)
+    return JSONResponse(content={"noised": "\n".join(processed)})
 
 @app.post("/save")
 async def save_text(data: SaveRequest):
@@ -157,5 +150,3 @@ async def save_text(data: SaveRequest):
     with open(save_path, "w", encoding="utf-8") as f:
         f.write(data.text)
     return {"status": "saved", "saved_as": save_path}
-
-######################################################################################3
