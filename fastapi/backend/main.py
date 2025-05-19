@@ -3,7 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from typing import List
 from fastapi.responses import JSONResponse
-from gliner import GLiNER
+# from gliner import GLiNER
 import re
 from datetime import datetime, timedelta
 import os
@@ -20,7 +20,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-model = GLiNER.from_pretrained("urchade/gliner_base")
+# model = GLiNER.from_pretrained("urchade/gliner_base")
 
 class SaveRequest(BaseModel):
     text: str
