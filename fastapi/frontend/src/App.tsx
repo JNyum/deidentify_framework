@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import SlateDataEditor from "./DateMarker"; // 경로 확인
 
 function App() {
