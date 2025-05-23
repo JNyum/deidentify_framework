@@ -620,7 +620,7 @@ export default function DFViewer() {
   const handleLoad = useCallback(async () => {
     try {
       setIsLoading(true);
-      const res = await fetch(`http://localhost:8000/load-file?index=${index}&type=raw`);
+      const res = await fetch(`http://localhost:8808/load-file?index=${index}&type=raw`);
       const data = await res.json();
 
       setAllColumns(data.columns);
@@ -646,7 +646,7 @@ export default function DFViewer() {
     }
     try {
       setIsLoading(true);
-      const res = await fetch("http://localhost:8000/add-noise-df", {
+      const res = await fetch("http://localhost:8808/add-noise-df", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ rows, columns: ["tag"], level: noiseValue }),
@@ -713,7 +713,7 @@ export default function DFViewer() {
     try {
       setIsLoading(true);
       const csv = convertToCSV(rows);
-      const res = await fetch("http://localhost:8000/save", {
+      const res = await fetch("http://localhost:8808/save", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ text: csv, filename: `${index}` }),
